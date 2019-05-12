@@ -1,0 +1,11 @@
+.Alert {
+  border: 1px solid red;
+  background-color: #ff9999;
+  font-family: 'Nunito', sans-serif;
+  font-size: 75%;
+}
+
+.success {
+  border: 1px solid lightgreen;
+  background-color: rgb(227, 250, 227);
+}
