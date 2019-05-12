@@ -1,6 +1,31 @@
 .properties {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.properties > .col {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.sidebar {
+  display: inline-block;
+  background-color: #111; 
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.sidebar a:hover {
+  color: grey;
 }
